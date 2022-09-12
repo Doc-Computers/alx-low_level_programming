@@ -4,6 +4,7 @@
  * Return: alway returns 0
 */
 int main(void)
+
 {
 	char a;
 	for (a = 'z'; a >= 'a' ; a--)

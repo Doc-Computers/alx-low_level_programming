@@ -3,7 +3,7 @@
 *main-entry point
 *Return: always returns
  */
-int main(entry point)
+int main(void)
 
 {
 	int i;

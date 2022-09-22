@@ -15,36 +15,32 @@ char *_strcat(char *dest, char *src)
 
 {
 
-		int count = 0, count2 = 0;
-
-
+	int count = 0, count2 = 0;
 
 	while (*(dest + count) != '\0')
 
-					{
+	{
 
-								count++;
+	count++;
 
-									}
+	}
 
+	while (count2 >= 0)
 
+	{
 
-		while (count2 >= 0)
-
-						{
-
-			*(dest + count) = *(src + count2);
+	*(dest + count) = *(src + count2);
 
 	if (*(src + count2) == '\0')
 
-															break;
+	break;
 
-													count++;
+	count++;
 
-															count2++;
+	count2++;
 
-																}
+	}
 
-					return (dest);
+	return (dest);
 
 }
